@@ -7,22 +7,23 @@ A quantum-walk-inspired classical routing framework that integrates weighted gra
 This project proposes a multi-objective routing model on weighted graphs. The walker evolves over the vertex Hilbert space under a Hamiltonian that combines weighted adjacency and a centrality-based potential term. The resulting time-averaged node occupation probabilities define a structural-risk score, which is integrated with normalized path distance through a bounded trade-off parameter `alpha ∈ [0,1]`.
 #### 5. How to Run (Generic)
 Step 1: Clone the repository
-`git clone <your-repo-url>`
-`cd <project-folder>`
+```git clone <your-repo-url>```
+```cd <project-folder>```
+
 Step 2: Create and activate virtual environment
 Windows (CMD)
-`python -m venv .venv`
-`.venv\Scripts\activate`
+```python -m venv .venv```
+```.venv\Scripts\activate```
 Windows (PowerShell)
-`python -m venv .venv`
-`.venv\Scripts\Activate.ps1`
+```python -m venv .venv```
+```.venv\Scripts\Activate.ps1```
 macOS/Linux (bash/zsh)
-`python3 -m venv .venv`
-`source .venv/bin/activate`
+```python3 -m venv .venv```
+```source .venv/bin/activate```
 Step 3: Install dependencies
-`pip install -r requirements.txt`
+```pip install -r requirements.txt```
 Step 4: Run the project
-`python main.py`
+```python main.py```
 
 ## Mathematical Foundations
 
