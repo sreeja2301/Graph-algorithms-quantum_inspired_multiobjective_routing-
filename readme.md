@@ -5,7 +5,16 @@ A quantum-walk-inspired classical routing framework that integrates weighted gra
 ## Overview
 
 This project proposes a multi-objective routing model on weighted graphs. The walker evolves over the vertex Hilbert space under a Hamiltonian that combines weighted adjacency and a centrality-based potential term. The resulting time-averaged node occupation probabilities define a structural-risk score, which is integrated with normalized path distance through a bounded trade-off parameter `alpha ∈ [0,1]`.
+## How to Run (Windows CMD)
 
+```bat
+cd C:\Users\Sreej\Downloads\Graphs\quantum_routing\quantum_routing
+
+python -m venv .venv
+.venv\Scripts\activate
+
+pip install -r requirements.txt
+python main.py
 ## Mathematical Foundations
 
 ### 1. Quantum State and Hilbert Space
