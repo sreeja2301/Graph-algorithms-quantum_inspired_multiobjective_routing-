@@ -12,18 +12,37 @@ Step 1: Clone the repository
 
 Step 2: Create and activate virtual environment
 Windows (CMD)
-```python -m venv .venv```
-```.venv\Scripts\activate```
+```
+python -m venv .venv
+```
+```
+.venv\Scripts\activate
+```
+
 Windows (PowerShell)
-```python -m venv .venv```
-```.venv\Scripts\Activate.ps1```
+```
+python -m venv .venv
+```
+```.venv\Scripts\Activate.ps1
+```
+
 macOS/Linux (bash/zsh)
-```python3 -m venv .venv```
-```source .venv/bin/activate```
+```
+python3 -m venv .venv
+```
+```
+source .venv/bin/activate
+```
+
 Step 3: Install dependencies
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
+
 Step 4: Run the project
-```python main.py```
+```
+python main.py
+```
 
 ## Mathematical Foundations
 
