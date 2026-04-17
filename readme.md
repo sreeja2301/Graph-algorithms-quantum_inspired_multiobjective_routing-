@@ -23,7 +23,8 @@ Windows (PowerShell)
 ```
 python -m venv .venv
 ```
-```.venv\Scripts\Activate.ps1
+```
+.venv\Scripts\Activate.ps1
 ```
 
 macOS/Linux (bash/zsh)
